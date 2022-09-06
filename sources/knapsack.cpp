@@ -31,7 +31,6 @@ int Knapsack::fractional_knapsack(std::vector<int> weights, std::vector<int> val
 
 		if(weights[index] <= capacity)
 		{
-			std::cout << values[index] << '\n';
 			// we item can fit into the knapsack
 			// hence take the whole of it
 			capacity -= weights[index];
@@ -50,46 +49,5 @@ int Knapsack::fractional_knapsack(std::vector<int> weights, std::vector<int> val
 		}
 	}
 	
-	std::cout << "====================\n"; 
 	return total_value;
 }
-
-/*int main()
-{
-	std::cout << "Enter the weights of the items, press -1 to stop" << std::endl;
-
-	std::vector <int> weights;
-
-	while(true)
-	{
-		int weight;
-		std::cin >> weight;
-
-		if(weight == -1)
-			break;
-
-		weights.push_back(weight);
-	}
-
-	std::cout << "Enter the values of each item, press -1 to stop" << std::endl;
-	
-	std::vector <int> values;
-
-	while(true)
-	{
-		int value;
-		std::cin >> value;
-
-		if(value == -1)
-			break;
-
-		values.push_back(value);
-	}
-
-	std::cout << "Enter the capacity of the knapsack" << std::endl;
-
-	int capacity;
-	std::cin >> capacity;
-
-	std::cout << "The maximum value possible based on current list is: " << fractional_knapsack(weights, values, capacity) << std::endl;
-}*/
