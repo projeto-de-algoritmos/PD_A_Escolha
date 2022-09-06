@@ -42,3 +42,6 @@ Sistema que utiliza APT:
 
 ## Uso 
 Após rodar o comando make, use as setas da direita e da esquerda para se movimentar, o enter para selecionar o objeto e o E para conferir o resultado.
+
+## Apresentação
+Você pode assistir à nossa apresentação [clicando aqui](https://github.com/projeto-de-algoritmos/PD_A_Escolha/blob/main/ApresentacaoGrupo24.mp4).
